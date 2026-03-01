@@ -1,10 +1,10 @@
-import axios, { AxiosInstance, AxiosResponse } from 'axios'
+import axios, { AxiosInstance } from 'axios'
 
 /**
  * Create axios instance with base configuration
  * This is the main HTTP client for all API requests
  */
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || 'http://localhost:3001/api';
 
 const api: AxiosInstance = axios.create({
   baseURL: API_BASE_URL,                    // Base URL for all API endpoints

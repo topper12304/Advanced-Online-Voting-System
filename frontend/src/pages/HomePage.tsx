@@ -4,24 +4,25 @@ import { useAuthStore } from '../stores/authStore'
 export default function HomePage() {
   const { isAuthenticated } = useAuthStore()
 
+  // Security features displayed on homepage
   const securityFeatures = [
     {
-      emoji: '🔒',
       title: 'Biometric Lock',
       description: 'Face & ID verification to ensure original voters',
-      gradient: 'from-blue-500 to-blue-600'
+      gradient: 'from-blue-500 to-blue-600',
+      icon: 'lock'
     },
     {
-      emoji: '⛓️',
       title: 'Blockchain Ledger',
       description: 'Votes are immutable; no one can edit them',
-      gradient: 'from-indigo-500 to-indigo-600'
+      gradient: 'from-indigo-500 to-indigo-600',
+      icon: 'chain'
     },
     {
-      emoji: '🚨',
       title: 'Real-time Fraud Detection',
       description: 'AI monitors suspicious login patterns',
-      gradient: 'from-red-500 to-red-600'
+      gradient: 'from-red-500 to-red-600',
+      icon: 'alert'
     }
   ]
 
@@ -99,7 +100,7 @@ export default function HomePage() {
                   to="/accessibility"
                   className="bg-transparent border-2 border-white hover:bg-white hover:text-[#1a2b4c] px-8 py-4 rounded-lg font-bold text-lg inline-flex items-center justify-center transition-colors"
                 >
-                  👁️ Accessibility
+                  Accessibility Options
                 </Link>
               </div>
             </div>
@@ -107,12 +108,13 @@ export default function HomePage() {
             {/* 3D Illustration Placeholder */}
             <div className="hidden md:flex justify-center items-center">
               <div className="relative w-80 h-80">
+                {/* Decorative security illustration */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full opacity-20"></div>
                 <div className="absolute inset-8 bg-white rounded-full flex items-center justify-center shadow-2xl">
-                  <div className="text-9xl">🔐</div>
+                  <div className="text-6xl font-bold text-[#1a2b4c]">SECURE</div>
                 </div>
                 <div className="absolute top-0 right-0 bg-green-500 rounded-full p-4 shadow-xl">
-                  <div className="text-3xl">✓</div>
+                  <div className="text-2xl font-bold text-white">✓</div>
                 </div>
               </div>
             </div>
@@ -138,8 +140,8 @@ export default function HomePage() {
                 key={index} 
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2"
               >
-                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br ${feature.gradient} mb-6 shadow-lg text-white text-3xl`}>
-                  {index === 0 ? '🔒' : index === 1 ? '⛓️' : '🚨'}
+                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br ${feature.gradient} mb-6 shadow-lg text-white text-2xl font-bold`}>
+                  {feature.icon === 'lock' ? '🔒' : feature.icon === 'chain' ? '⛓' : '⚠'}
                 </div>
                 
                 <h3 className="text-2xl font-bold text-[#1a2b4c] mb-3">
@@ -164,8 +166,8 @@ export default function HomePage() {
             <div className="absolute bottom-0 left-0 w-48 h-48 bg-white opacity-5 rounded-full -ml-24 -mb-24"></div>
             
             <div className="relative text-center text-white">
-              <div className="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6 backdrop-blur-sm text-4xl">
-                🛡️
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6 backdrop-blur-sm text-4xl font-bold">
+                ✓
               </div>
               
               <h3 className="text-4xl font-bold mb-4">

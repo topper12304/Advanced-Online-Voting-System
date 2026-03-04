@@ -281,11 +281,12 @@ export default function VotingPage() {
             )) || (
               // Mock candidates for demo
               [
+                // Mock candidate data for demonstration purposes
                 {
                   candidateId: '1',
                   name: 'Rajesh Kumar',
                   party: 'Democratic Party',
-                  symbol: '🏛️',
+                  symbol: 'DP',
                   constituency: user?.constituency || 'Demo Constituency',
                   biography: 'Experienced leader with 15 years in public service',
                   photoUrl: '/api/placeholder/candidate1.jpg'
@@ -294,7 +295,7 @@ export default function VotingPage() {
                   candidateId: '2',
                   name: 'Priya Sharma',
                   party: 'Progressive Alliance',
-                  symbol: '🌟',
+                  symbol: 'PA',
                   constituency: user?.constituency || 'Demo Constituency',
                   biography: 'Young leader focused on technology and education',
                   photoUrl: '/api/placeholder/candidate2.jpg'
@@ -303,7 +304,7 @@ export default function VotingPage() {
                   candidateId: '3',
                   name: 'Mohammed Ali',
                   party: 'Unity Party',
-                  symbol: '🤝',
+                  symbol: 'UP',
                   constituency: user?.constituency || 'Demo Constituency',
                   biography: 'Community organizer with focus on social justice',
                   photoUrl: '/api/placeholder/candidate3.jpg'

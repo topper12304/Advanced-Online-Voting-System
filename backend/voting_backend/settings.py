@@ -5,10 +5,8 @@ This file contains all the configuration settings for the Django application.
 
 import os
 from pathlib import Path
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+# No need for dotenv in production - Elastic Beanstalk sets environment variables directly
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'
 BASE_DIR = Path(__file__).resolve().parent.parent

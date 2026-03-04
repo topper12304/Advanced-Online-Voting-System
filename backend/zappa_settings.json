@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "django_settings": "voting_backend.settings",
+        "profile_name": "default",
+        "project_name": "voting-backend",
+        "runtime": "python3.9",
+        "s3_bucket": "voting-backend-zappa-deployments",
+        "aws_region": "us-east-1",
+        "keep_warm": false,
+        "memory_size": 512,
+        "timeout_seconds": 30,
+        "environment_variables": {
+            "DEBUG": "False"
+        }
+    }
+}

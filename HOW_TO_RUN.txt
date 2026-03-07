@@ -1,0 +1,69 @@
+╔═══════════════════════════════════════════════════════════════╗
+║     ADVANCED ONLINE VOTING SYSTEM - HOW TO RUN               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📋 SIMPLE STEPS TO RUN THE WEBSITE:
+
+1. Open VS Code
+2. Open this project folder
+3. Right-click on "index.html" file
+4. Select "Open with Live Server"
+5. Website will open automatically in your browser!
+
+🔑 DEMO VOTER IDs (Use these to test):
+   - VOTER12345
+   - VOTER67890
+   - TEST123
+
+✨ FEATURES YOU CAN TEST:
+
+   ✓ Login with Voter ID
+   ✓ Biometric Verification (simulated)
+   ✓ Vote for Candidates
+   ✓ Get Cryptographic Receipt
+   ✓ Download Receipt
+   ✓ Admin Dashboard
+   ✓ Accessibility Settings
+   ✓ High Contrast Mode
+   ✓ Font Size Adjustment
+
+📁 PROJECT FILES:
+   - index.html  → Main website structure
+   - styles.css  → All styling and design
+   - script.js   → Application logic
+
+🌐 BROWSER REQUIREMENTS:
+   - Chrome (Recommended)
+   - Firefox
+   - Safari
+   - Edge
+
+⚠️ IMPORTANT NOTES:
+   - No installation needed!
+   - No Node.js required!
+   - Works directly in browser
+   - All data resets on page refresh
+   - This is a demonstration version
+
+🎯 VOTING FLOW:
+   1. Click "Start Voting"
+   2. Enter Voter ID
+   3. Complete Biometric Scan
+   4. Select Candidate
+   5. Confirm Vote
+   6. Download Receipt
+
+💡 TIPS:
+   - Try the Admin Dashboard to see statistics
+   - Use Accessibility Settings to customize
+   - Download your receipt after voting
+   - Each Voter ID can only vote once
+
+🆘 TROUBLESHOOTING:
+   - If Live Server doesn't work, install it from VS Code Extensions
+   - If page doesn't load, check browser console (F12)
+   - Clear browser cache if you see old version
+
+═══════════════════════════════════════════════════════════════
+
+Built with ❤️ for secure and accessible democracy

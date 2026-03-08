@@ -1,9 +1,11 @@
 import axios, { AxiosInstance } from 'axios'
+import * as mockApi from './mockApi'
 
 /**
  * Create axios instance with base configuration
  * This is the main HTTP client for all API requests
  */
+const USE_MOCK_API = (import.meta as any).env?.VITE_USE_MOCK_API === 'true' || !(import.meta as any).env?.VITE_API_URL;
 const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || 'http://localhost:3001/api';
 
 const api: AxiosInstance = axios.create({
@@ -53,7 +55,7 @@ api.interceptors.response.use(
  * Authentication API endpoints
  * Handles user authentication, token management, and session validation
  */
-export const authApi = {
+export const authApi = USE_MOCK_API ? mockApi.mockAuthApi : {
   /**
    * Step 1: Login with Voter ID
    * @param voterId - Voter's unique ID
@@ -114,7 +116,7 @@ export const authApi = {
  * Voting API endpoints
  * Handles the complete voting workflow from session creation to vote confirmation
  */
-export const votingApi = {
+export const votingApi = USE_MOCK_API ? mockApi.mockVotingApi : {
   /**
    * Get election details including candidates
    * @param electionId - Unique election identifier
@@ -147,7 +149,7 @@ export const votingApi = {
 }
 
 // Voice AI API
-export const voiceApi = {
+export const voiceApi = USE_MOCK_API ? mockApi.mockVoiceApi : {
   processVoiceCommand: (audioData: Blob, sessionId: string) => {
     const formData = new FormData()
     formData.append('audio', audioData)
@@ -174,7 +176,7 @@ export const voiceApi = {
 }
 
 // Biometric API
-export const biometricApi = {
+export const biometricApi = USE_MOCK_API ? mockApi.mockBiometricApi : {
   captureFingerprint: () =>
     api.post('/biometric/fingerprint/capture'),
   
@@ -186,7 +188,7 @@ export const biometricApi = {
 }
 
 // Admin API
-export const adminApi = {
+export const adminApi = USE_MOCK_API ? mockApi.mockAdminApi : {
   getDashboardStats: () =>
     api.get('/admin/dashboard/stats'),
   
@@ -210,7 +212,7 @@ export const adminApi = {
 }
 
 // Accessibility API
-export const accessibilityApi = {
+export const accessibilityApi = USE_MOCK_API ? mockApi.mockAccessibilityApi : {
   getAccessibilitySettings: () =>
     api.get('/accessibility/settings'),
   

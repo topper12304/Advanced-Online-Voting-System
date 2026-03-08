@@ -1,23 +1,14 @@
-# 🗳️ Advanced Online Voting System
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://mohit5chandra7purohit7-byte.github.io/Advanced-Online-Voting-System/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://github.com/mohit5chandra7purohit7-byte/Advanced-Online-Voting-System)
+# Advanced Online Voting System
 
 A secure, accessible, and transparent online voting platform with biometric authentication, blockchain technology, and voice-assisted voting.
 
----
+## Live Website
 
-## 🌐 Live Website
+Access the voting system here: https://topper12304.github.io/Advanced-Online-Voting-System/
 
-**Access the voting system here:**
+Note: If the link doesn't work yet, follow the GitHub Pages Setup instructions below.
 
-### 🔗 https://mohit5chandra7purohit7-byte.github.io/Advanced-Online-Voting-System/
-
-> **Note:** If the link doesn't work yet, follow the [GitHub Pages Setup](#github-pages-setup) instructions below.
-
----
-
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Use Live Website (Recommended)
 Simply open the live URL above in any browser and start voting!
@@ -27,53 +18,49 @@ Simply open the live URL above in any browser and start voting!
 2. Open `index.html` in your browser
 3. No installation or build process needed!
 
----
-
-## 🔑 Demo Credentials
+## Demo Credentials
 
 Use these Voter IDs to test the system:
 
 | Voter ID | Name | Status |
 |----------|------|--------|
-| `VOTER12345` | Rahul Kumar | ✅ Active |
-| `VOTER67890` | Priya Sharma | ✅ Active |
-| `TEST123` | Test User | ✅ Active |
+| VOTER12345 | Rahul Kumar | Active |
+| VOTER67890 | Priya Sharma | Active |
+| TEST123 | Test User | Active |
 
----
+## Features
 
-## ✨ Features
+## Features
 
-### 🔐 Security
-- **Biometric Authentication** - Face recognition for voter verification
-- **Blockchain Integration** - Immutable vote recording
-- **Cryptographic Receipts** - Verifiable vote confirmation
-- **One Vote Per Voter** - Prevents duplicate voting
+### Security
+- Biometric Authentication - Face recognition for voter verification
+- Blockchain Integration - Immutable vote recording
+- Cryptographic Receipts - Verifiable vote confirmation
+- One Vote Per Voter - Prevents duplicate voting
 
-### ♿ Accessibility
-- **Voice Navigation** - Complete voice-assisted voting flow
-- **Screen Reader Support** - ARIA labels and semantic HTML
-- **High Contrast Mode** - Enhanced visibility options
-- **Font Size Adjustment** - Customizable text size
-- **Keyboard Navigation** - Full keyboard accessibility
+### Accessibility
+- Voice Navigation - Complete voice-assisted voting flow
+- Screen Reader Support - ARIA labels and semantic HTML
+- High Contrast Mode - Enhanced visibility options
+- Font Size Adjustment - Customizable text size
+- Keyboard Navigation - Full keyboard accessibility
 
-### 🎨 User Experience
-- **Responsive Design** - Works on all devices
-- **Real-time Validation** - Instant feedback
-- **Progress Tracking** - Clear voting flow indicators
-- **Modern UI** - Beautiful gradient design with smooth animations
+### User Experience
+- Responsive Design - Works on all devices
+- Real-time Validation - Instant feedback
+- Progress Tracking - Clear voting flow indicators
+- Modern UI - Beautiful gradient design with smooth animations
 
-### 📊 Admin Dashboard
-- **Real-time Statistics** - Live voting data
-- **Fraud Detection** - Suspicious activity monitoring
-- **System Health** - Performance metrics
-- **Voter Analytics** - Turnout and participation data
+### Admin Dashboard
+- Real-time Statistics - Live voting data
+- Fraud Detection - Suspicious activity monitoring
+- System Health - Performance metrics
+- Voter Analytics - Turnout and participation data
 
----
-
-## 🎯 How to Vote
+## How to Vote
 
 1. **Visit the Website**
-   - Open: https://mohit5chandra7purohit7-byte.github.io/Advanced-Online-Voting-System/
+   - Open: https://topper12304.github.io/Advanced-Online-Voting-System/
 
 2. **Login**
    - Click "Start Voting"
@@ -92,18 +79,14 @@ Use these Voter IDs to test the system:
    - Download your cryptographic receipt
    - Keep it for verification
 
----
+## Available Candidates
 
-## 🎭 Available Candidates
+1. Narendra Modi - BJP
+2. Rahul Gandhi - INC
+3. Arvind Kejriwal - AAP
+4. Mamata Banerjee - TMC
 
-1. **Narendra Modi** - BJP 🪷
-2. **Rahul Gandhi** - INC ✋
-3. **Arvind Kejriwal** - AAP 🧹
-4. **Mamata Banerjee** - TMC 🌸
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 Advanced-Online-Voting-System/
@@ -120,45 +103,37 @@ Advanced-Online-Voting-System/
 └── README.md               # This file
 ```
 
----
-
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Standalone Version (Root Folder)
-- **HTML5** - Semantic structure
-- **CSS3** - Modern styling with animations
-- **JavaScript (ES6+)** - Vanilla JS, no frameworks
-- **No Dependencies** - Pure web technologies
+- HTML5 - Semantic structure
+- CSS3 - Modern styling with animations
+- JavaScript (ES6+) - Vanilla JS, no frameworks
+- No Dependencies - Pure web technologies
 
 ### Original Version (Frontend/Backend Folders)
-- **Frontend:** React 18 + TypeScript + Tailwind CSS
-- **Backend:** Django + AWS Services
-- **State Management:** Zustand
-- **Build Tool:** Vite
+- Frontend: React 18 + TypeScript + Tailwind CSS
+- Backend: Django + AWS Services
+- State Management: Zustand
+- Build Tool: Vite
 
----
+## Browser Support
 
-## 🌐 Browser Support
+- Chrome (Recommended)
+- Firefox
+- Safari
+- Microsoft Edge
+- Mobile browsers (iOS/Android)
 
-- ✅ Chrome (Recommended)
-- ✅ Firefox
-- ✅ Safari
-- ✅ Microsoft Edge
-- ✅ Mobile browsers (iOS/Android)
-
----
-
-## 📱 Mobile Friendly
+## Mobile Friendly
 
 The system is fully responsive and works perfectly on:
-- 📱 Smartphones
-- 📱 Tablets
-- 💻 Laptops
-- 🖥️ Desktop computers
+- Smartphones
+- Tablets
+- Laptops
+- Desktop computers
 
----
-
-## 🔧 GitHub Pages Setup
+## GitHub Pages Setup
 
 If the live URL doesn't work yet, enable GitHub Pages:
 
@@ -172,40 +147,36 @@ If the live URL doesn't work yet, enable GitHub Pages:
 
 Your site will be live at:
 ```
-https://mohit5chandra7purohit7-byte.github.io/Advanced-Online-Voting-System/
+https://topper12304.github.io/Advanced-Online-Voting-System/
 ```
 
----
-
-## 🎓 Features Demonstrated
+## Features Demonstrated
 
 ### Security Features (Simulated)
-- ✅ Biometric authentication
-- ✅ Blockchain vote recording
-- ✅ Cryptographic hashing
-- ✅ Receipt generation
-- ✅ Vote verification
-- ✅ Fraud detection
+- Biometric authentication
+- Blockchain vote recording
+- Cryptographic hashing
+- Receipt generation
+- Vote verification
+- Fraud detection
 
 ### Accessibility Features
-- ✅ WCAG 2.1 compliant
-- ✅ Keyboard navigation
-- ✅ Screen reader support
-- ✅ High contrast mode
-- ✅ Font size adjustment
-- ✅ RTL text support
+- WCAG 2.1 compliant
+- Keyboard navigation
+- Screen reader support
+- High contrast mode
+- Font size adjustment
+- RTL text support
 
 ### User Interface
-- ✅ Modern gradient design
-- ✅ Smooth animations
-- ✅ Loading states
-- ✅ Modal dialogs
-- ✅ Success indicators
-- ✅ Responsive layout
+- Modern gradient design
+- Smooth animations
+- Loading states
+- Modal dialogs
+- Success indicators
+- Responsive layout
 
----
-
-## 💡 Usage Tips
+## Usage Tips
 
 - Each Voter ID can only vote once (refresh page to reset)
 - Press `ESC` to close modal dialogs
@@ -214,9 +185,7 @@ https://mohit5chandra7purohit7-byte.github.io/Advanced-Online-Voting-System/
 - Download receipt after voting for proof
 - Check browser console (F12) for debug info
 
----
-
-## 🔄 Updating the Live Site
+## Updating the Live Site
 
 To update the live website after making changes:
 
@@ -228,9 +197,7 @@ git push origin main
 
 GitHub Pages will automatically redeploy in 2-3 minutes.
 
----
-
-## 📊 Project Statistics
+## Project Statistics
 
 - **Total Lines of Code:** ~800 lines
 - **File Size:** 33.7 KB (uncompressed)
@@ -238,19 +205,15 @@ GitHub Pages will automatically redeploy in 2-3 minutes.
 - **Dependencies:** 0 (standalone version)
 - **Browser Compatibility:** 100%
 
----
+## Use Cases
 
-## 🎯 Use Cases
+- Educational: Learn about voting systems
+- Demonstration: Show secure voting concepts
+- Prototype: Base for production systems
+- Testing: Test voting workflows
+- Portfolio: Showcase web development skills
 
-- **Educational:** Learn about voting systems
-- **Demonstration:** Show secure voting concepts
-- **Prototype:** Base for production systems
-- **Testing:** Test voting workflows
-- **Portfolio:** Showcase web development skills
-
----
-
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Live URL not working?
 - Wait 5 minutes after enabling GitHub Pages
@@ -266,18 +229,13 @@ GitHub Pages will automatically redeploy in 2-3 minutes.
 - Refresh the page to reset
 - Use a different Voter ID
 
----
+## Documentation
 
-## 📄 Documentation
+- START_HERE.md - Complete guide (removed)
+- DEPLOY_INSTRUCTIONS.txt - GitHub Pages setup (removed)
+- QUICK_START_GUIDE.md - Detailed walkthrough (removed)
 
-- 📖 [START_HERE.md](START_HERE.md) - Complete guide
-- 📖 [DEPLOY_INSTRUCTIONS.txt](DEPLOY_INSTRUCTIONS.txt) - GitHub Pages setup
-- 📖 [QUICK_START_GUIDE.md](QUICK_START_GUIDE.md) - Detailed walkthrough
-- 📖 [PROJECT_COMPLETE.txt](PROJECT_COMPLETE.txt) - Feature list
-
----
-
-## 🎨 Customization
+## Customization
 
 ### Change Colors
 Edit `styles.css` and modify the `:root` section:
@@ -305,25 +263,21 @@ const MOCK_VOTERS = {
 };
 ```
 
----
-
-## 🚀 Deployment Options
+## Deployment Options
 
 ### GitHub Pages (Current)
-- ✅ Free hosting
-- ✅ HTTPS included
-- ✅ Automatic deployment
-- ✅ Custom domain support
+- Free hosting
+- HTTPS included
+- Automatic deployment
+- Custom domain support
 
 ### Alternative Platforms
-- **Netlify:** Drag and drop deployment
-- **Vercel:** Git integration
-- **AWS Amplify:** Scalable hosting
-- **Firebase Hosting:** Google infrastructure
+- Netlify: Drag and drop deployment
+- Vercel: Git integration
+- AWS Amplify: Scalable hosting
+- Firebase Hosting: Google infrastructure
 
----
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
@@ -331,35 +285,27 @@ Contributions are welcome! Feel free to:
 - Submit pull requests
 - Improve documentation
 
----
-
-## 📞 Support
+## Support
 
 For issues or questions:
 - Open an issue on GitHub
 - Check the documentation files
 - Review browser console for errors
 
----
-
-## 📜 License
+## License
 
 This project is open source and available under the MIT License.
 
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with modern web technologies
 - Inspired by secure voting systems
 - Designed for accessibility and usability
 - Created for educational purposes
 
----
+## Project Status
 
-## 🎊 Project Status
-
-✅ **Complete and Ready to Use**
+Complete and Ready to Use
 
 - Fully functional voting system
 - Deployed on GitHub Pages
@@ -367,9 +313,7 @@ This project is open source and available under the MIT License.
 - Works on all devices
 - Free and open source
 
----
-
-## 📈 Future Enhancements
+## Future Enhancements
 
 Potential improvements for production use:
 - Real biometric authentication (AWS Rekognition)
@@ -383,19 +327,4 @@ Potential improvements for production use:
 
 ---
 
-## 🌟 Star This Repository
-
-If you find this project useful, please give it a ⭐ on GitHub!
-
----
-
-<div align="center">
-
-### 🗳️ [Try the Live Demo Now!](https://mohit5chandra7purohit7-byte.github.io/Advanced-Online-Voting-System/)
-
-**Built with ❤️ for secure and accessible democracy**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/mohit5chandra7purohit7-byte/Advanced-Online-Voting-System)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://mohit5chandra7purohit7-byte.github.io/Advanced-Online-Voting-System/)
-
-</div>
+Built with care for secure and accessible democracy
